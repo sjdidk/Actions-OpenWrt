@@ -19,10 +19,10 @@ on:
         required: true
         default: 'true'
 #  schedule:
-#    - cron: 0 8 * * 5
+#    - cron: 0 8 * * 5 https://github.com/coolsnowwolf/lede
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/project-openwrt/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
