@@ -19,14 +19,14 @@ on:
         required: true
         default: 'true'
 #  schedule:
-#    - cron: 0 8 * * 5 1,lede, 23 project, 4 Lienol,
+#    - cron: 0 8 * * 5 1,lede, 2 project, 3 Lienol,
 # https://github.com/openwrt/openwrt
 # https://github.com/Lienol/openwrt/
 # https://github.com/coolsnowwolf/lede
 # https://github.com/project-openwrt/openwrt
 
 env:
-  REPO_URL: https://github.com/project-openwrt/openwrt
+  REPO_URL: https://github.com/Lienol/openwrt/
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
