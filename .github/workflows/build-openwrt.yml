@@ -19,7 +19,11 @@ on:
         required: true
         default: 'true'
 #  schedule:
-#    - cron: 0 8 * * 5 https://github.com/coolsnowwolf/lede
+#    - cron: 0 8 * * 5 1,lede, 23 project, 4 Lienol,
+# https://github.com/openwrt/openwrt
+# https://github.com/Lienol/openwrt/
+# https://github.com/coolsnowwolf/lede
+# https://github.com/project-openwrt/openwrt
 
 env:
   REPO_URL: https://github.com/project-openwrt/openwrt
